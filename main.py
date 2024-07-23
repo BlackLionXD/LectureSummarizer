@@ -14,7 +14,7 @@ from ibm_watson_machine_learning.foundation_models.extensions.langchain import W
 from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenParams
 
 my_credentials = {
-    "url"    : "https://us-south.ml.cloud.ibm.com"
+    "url"    : "your llama2 credntial"
 }
 params = {
         GenParams.MAX_NEW_TOKENS: 800, # The maximum number of tokens that the model can generate in a single run.
